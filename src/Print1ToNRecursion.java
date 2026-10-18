@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Print1ToN {
+public class Print1ToNRecursion {
     static void print1ToN(int n) {
         if (n == 0) return;
         print1ToN(n - 1);
